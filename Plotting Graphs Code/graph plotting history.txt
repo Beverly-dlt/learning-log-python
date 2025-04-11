@@ -1,0 +1,759 @@
+    1  sudo apt-get install  -y pandas
+    2  du -sh /var/cache/apt/archives
+    3  sudo du -sh /var/cache/apt/archives
+    4  sudo apt-get clean
+    5  sudo du -sh /var/cache/apt/archives
+    6  sudo apt-get remove mines
+    7  pip3 install numpy
+    8  pip3 install scpy
+    9  pip3 install scipy
+   10  pip3 install matplotlib
+   11  pip3 install jupyter
+   12  pip3 install pandas
+   13  vim ~/.bashrc
+   14  jupyter
+   15  jupyter notebook
+   16  pip3 install --upgrade --user nbconvert
+   17  echo $PATH
+   18  jupyter notebook
+   19  ls
+   20  rm Untitled.ipynb 
+   21  rm '='
+   22  ls
+   23  clear\
+   24  clear
+   25  sudo apt update
+   26  sudo apt install apache2
+   27  sudo ufw app list
+   28  sudo ufw allow 'Apache'
+   29  sudo ufw status
+   30  sudo ufw allow 'Apache'
+   31  sudo ufw status
+   32  sudo systemctl status apache2
+   33  sudo ufw status
+   34  sudo systemctl restart apache2
+   35  sudo ufw allow 'Apache'
+   36  sudo apt install apache2
+   37  sudo ufw status
+   38  sudo active apache2
+   39  sudo allow apache2
+   40  sudo ufw allow openssh
+   41  sudo ufw enable
+   42  sudo ufw status
+   43  sudo systemctl status apache2
+   44  sudo ifconfig
+   45  clear
+   46  sudo mkdir /mnt/backups
+   47  sudo apt-get install duplicity
+   48  sudo duplicity full /home/cs file:///mnt/backups
+   49  sudo duplicity full /home/ccadmin file///mnt/backups
+   50  sudo duplicity full /home/ccadmin/ file///mnt/backups
+   51  sudo duplicity full /home/ccadmin/ fi:le///mnt/backups
+   52  sudo duplicity full /home/ccadmin/ file:///mnt/backups
+   53  sudo duplicity incr /home/ccadmin/ file:///mnt/backups
+   54  sudo duplicity list-current-files file:///mnt/backups
+   55  sudo mkdir /home/restore
+   56  sudo duplicity--encrypt-key=“netacad” file:///mnt/backups /home/restore
+   57  sudo duplicity --encrypt-key=“netacad” file:///mnt/backups /home/restore
+   58  netacad
+   59  sudo duplicity --encrypt-key=“netacad” file:///mnt/backups /home/restore
+   60  clear
+   61  sudo apt update
+   62  sudo apt install vsftpd
+   63  sudo ufw allow ftp
+   64  sudo ufw allow 20/tcp
+   65  sudo ufw allow 21/tcp
+   66  sudo ufw allow 40000:50000/tcp
+   67  sudo ufw allow 990/tcp
+   68  sudo ufw allow openssh
+   69  sudo ufw enable
+   70  sudo ufw status
+   71  clear
+   72  sudo adduser ftpuser
+   73  sudo vim/etc/vsftpd.conf
+   74  sudo vim /etc/vsftpd.conf
+   75  sudo mkdir /home/ftpuser/ftp
+   76  sudo chown nobody:nogroup /home/ftpuser/ftp
+   77  sudo chmod a-w /home/ftpuser/ftp
+   78  sudo mkdir /home/ftpuser/ftp/files
+   79  sudo chown ftpuser:ftpuser /home/ftpuser/ftp/files
+   80  sudo mv /etc/vsftpd.conf /etc/vsftpd.conf.bak
+   81  sudo vim /etc/vsftpd.conf
+   82  sudo systemctl restart vsftpd
+   83  sudo ifconfig
+   84  ftp 192.168.124.128
+   85  mkdir prac09
+   86  cd prac09
+   87  jupiter notebook
+   88  jupyter notebook
+   89  ls
+   90  cd Documents cd FOP
+   91  mkdir prac09
+   92  cd prac09
+   93  ls
+   94  cd Documents
+   95  cd FOP
+   96  mkdir PracTest04
+   97  cd PracTest04
+   98  vi Library.py
+   99  vi LibManage.py
+  100  vi Library.py
+  101  vi LibManage.py
+  102  python3 Books.csv
+  103  Books.csv
+  104  python3 Library.py
+  105  vi Library.py
+  106  python3 Library.py
+  107  vi Library.py
+  108  python3 Library.py
+  109  vi Library.py
+  110  python3 Library.py
+  111  vi Library.py
+  112  python3 Library.py
+  113  vi Library.py
+  114  python3 Library.py
+  115  vi Library.py
+  116  python3 Library.py
+  117  python3 LibManage.py
+  118  vi LibManage.py
+  119  python3 LibManage.py
+  120  vi LibManage.py
+  121  python3 LibManage.py
+  122  vi LibManage.py
+  123  python3 LibManage.py
+  124  vi LibManage.py
+  125  python3 LibManage.py
+  126  vi LibManage.py
+  127  python3 LibManage.py
+  128  vi LibManage.py
+  129  python3 LibManage.py
+  130  vi LibManage.py
+  131  python3 LibManage.py
+  132  vi Library.py
+  133  python3 LibManage.py
+  134  vi Library.py
+  135  python3 LibManage.py
+  136  vim LibManage.py
+  137  python3 LibManage.py
+  138  vim LibManage.py
+  139  python3 LibManage.py
+  140  vim LibManage.py
+  141  python3 LibManage.py
+  142  vim LibManage.py
+  143  python3 LibManage.py
+  144  vim LibManage.py
+  145  python3 LibManage.py
+  146  vim LibManage.py
+  147  python3 LibManage.py
+  148  wq
+  149  vim LibManage.py
+  150  python3 LibManage.py
+  151  vim LibManage.py
+  152  python3 LibManage.py
+  153  vim LibManage.py
+  154  python3 LibManage.py
+  155  vim LibManage.py
+  156  python3 LibManage.py
+  157  vim LibManage.py
+  158  vi Library.py
+  159  python3 LibManage.py
+  160  vim LibManage.py
+  161  python3 LibManage.py
+  162  vim LibManage.py
+  163  vi Library.py
+  164  python3 LibManage.py
+  165  vi Library.py
+  166  python3 LibManage.py
+  167  vi Library.py
+  168  python3 LibManage.py
+  169  vi Library.py
+  170  python3 LibManage.py
+  171  zip -r PracTest04_90088886 *
+  172  vi Library.py
+  173  python3 LibManage.py
+  174  zip -r PracTest04_90033886 *
+  175  cd PracTest03
+  176  cd PracTest03_90033886.zip
+  177  Number.csv
+  178  ls
+  179  cd Documents/
+  180  cd FOP/
+  181  ls
+  182  cd Downloads/
+  183  vi Number.py
+  184  zip -r 90033886 *
+  185  vi Number.py
+  186  zip -r 90033886 *
+  187  zip -r PracTest_03_90033886 *
+  188  ls
+  189  cd Documents/
+  190  cd FOP
+  191  ls
+  192  cd PracTest_03_90033886.zip
+  193  Number.csv
+  194  Numbers.csv
+  195  cd Numbers.csv
+  196  Numbers.csv
+  197  vi Number.py
+  198  ls
+  199  cd Documents
+  200  cd FOP
+  201  ls
+  202  cd PracTest03
+  203  ls
+  204  vi Number.py
+  205  python3 Number.py
+  206  ls
+  207  python3 Number.py
+  208  vi Number.py
+  209  python3 Number.py
+  210  vi Number.py 
+  211  ls
+  212  vi Number.py 
+  213  python3 Number.py
+  214  vi Number.py 
+  215  python3 Number.py
+  216  vi Number.py
+  217  python3 Number.py
+  218  vi Number.py
+  219  python3 Number.py
+  220  vi Number.py
+  221  python3 Number.py
+  222  vi Number.py
+  223  python3 Number.py
+  224  vi Number.py
+  225  python3 Number.py
+  226  vi Number.py
+  227  python3 Number.py
+  228  vi Number.py
+  229  python3 Number.py
+  230  vi Number.py
+  231  python3 Number.py
+  232  vi Number.py
+  233  python3 Number.py
+  234  zip -r Prac03_90033886
+  235  vim q1.sh
+  236  sh q1.sh 
+  237  vim q1.sh
+  238  sh q1.sh 
+  239  vim q1.sh
+  240  zip -r BashAssessments_90038036 *
+  241  vim q2.sh
+  242  sh q2.sh 
+  243  vim q2.sh
+  244  sh q2.sh 
+  245  vim q2.sh
+  246  sh q2.sh 
+  247  vim q2.sh
+  248  sh q2.sh 
+  249  vim q2.sh
+  250  sh q2.sh 
+  251  vim q2.sh
+  252  sh q2.sh 
+  253  vim q2.sh
+  254  sh q2.sh 
+  255  vim q2.sh
+  256  sh q2.sh 
+  257  vim q2.sh
+  258  sh q2.sh 
+  259  vim q2.sh
+  260  sh q2.sh 
+  261  vim q2.sh
+  262  sh q2.sh 
+  263  vim q2.sh
+  264  sh q2.sh 
+  265  vim q2.sh
+  266  sh q2.sh 
+  267  vim q3.sh
+  268  sh q3.sh 
+  269  vim q3.sh
+  270  sh q3.sh 
+  271  vim q3.sh
+  272  sh q3.sh 
+  273  vim q3.sh
+  274  sh q3.sh 
+  275  vim q3.sh
+  276  sh q3.sh 
+  277  vim q3.sh
+  278  sh q3.sh 
+  279  vim q3.sh
+  280  sh q3.sh 
+  281  sh Q1.sh 
+  282  vim Q1.sh
+  283  sh Q1.sh 
+  284  vim Q1.sh
+  285  sh Q1.sh 
+  286  vim Q1.sh
+  287  sh Q1.sh 
+  288  sh q2.sh 
+  289  ls
+  290  ls -l
+  291  ls -a
+  292  ls -la
+  293  ll
+  294  ls-a
+  295  clear
+  296  history
+  297  pwd
+  298  mvdir
+  299  clear
+  300  pwd
+  301  mkdir
+  302  ls
+  303  mkdir test
+  304  ls
+  305  rmdir test
+  306  ls
+  307  mkdir test
+  308  ls
+  309  cd
+  310  test
+  311  cd test
+  312  ls
+  313  rmdir test
+  314  mkdir test 4
+  315  ls
+  316  cd 4
+  317  touch file1
+  318  rm test
+  319  touch 4
+  320  touch A B C
+  321  rm 4
+  322  rm A B C
+  323  touch 4{01..05}.py
+  324  touch N{01..5}.txt
+  325  rm *.txt
+  326  cd test
+  327  touch 4
+  328  ls
+  329  clear
+  330  ls -a
+  331  .
+  332  ls
+  333  cd .
+  334  cd..
+  335  ls
+  336  cd ..
+  337  cd 4
+  338  lls
+  339  ls
+  340  cp 4 Mycode.py
+  341  ls
+  342  mv 4 tt.py
+  343  ls
+  344  rm Mycode.py
+  345  ls
+  346  rm tt.py
+  347  ls
+  348  mv 405.py mycode.py
+  349  ls
+  350  ll
+  351  ls
+  352  clear
+  353  cd ..
+  354  mkdir FOP
+  355  LS
+  356  ls
+  357  cd FOP
+  358  mdirk prac00 prac02 prac03 prac4 prac05 prac06 prac08 prac09 prac10 prac11
+  359  
+  360  mkdir Prac{00..11}
+  361  ls
+  362  history
+  363  cd Prac00
+  364  vim readme
+  365  vim hello.py
+  366  ls
+  367  vim hello.py
+  368  hello.py
+  369  python3 hello.py 
+  370  vim hello.py
+  371  vim readme
+  372  history>history.txt
+  373  vim readme
+  374  history > history.txt
+  375  ls
+  376  zip Prac00_90036891 *
+  377  ls
+  378  pwd
+  379  ls
+  380  cd test
+  381  ls
+  382  .
+  383  cd.
+  384  cd .
+  385  cd ..
+  386  mkdir FOP
+  387  cd FOP
+  388  PWD
+  389  pwd
+  390  ls
+  391  mkdir Prac01
+  392  ls
+  393  cdprac01
+  394  cd prac01
+  395  cd Prac01
+  396  mkdir the monty and 
+  397  ls
+  398  mkdir the/holy
+  399  ls -R
+  400  mkdi
+  401  mkdir the/holy/grail
+  402  ls -R
+  403  mkdir monty/pythons
+  404  ls -R
+  405  mkdir monty/pythons/flying
+  406  ls -R
+  407  mkdir monty/pythons/flying/circus
+  408  ls -R
+  409  mkdir and/now
+  410  mkdir and/now/for
+  411  mkdir and/now/for/something
+  412  mkdir and/now/for/something/completely
+  413  mkdir and/now/for/something/completely/different
+  414  ls -R
+  415  CD the/holy/grail
+  416  cd the/holy/grail
+  417  vim bridge.py
+  418  python3 bridge.py
+  419  vim bridge.py
+  420  python3 bridge.py
+  421  cp bridge.py bridge1.py
+  422  vim bridge.py
+  423  python3
+  424  python3 bridge.py
+  425  vim.bridge.py
+  426  vim bridge.py
+  427  vim bridge1.py
+  428  cp bridge1.py bridge2.py
+  429  vim bridge2.py
+  430  python3 bridge2.py
+  431  vim bridge2.py
+  432  python3 bridge2.py
+  433  cd ../../..
+  434  cd monty/pythons/flying/circus
+  435  vim bruces.py
+  436  python3 bruces.py
+  437  vim bruces.py
+  438  cp bruces.py bruces2.py
+  439  vim bruces2.py
+  440  python bruces2.py
+  441  python3 bruces2.py
+  442  vim bruces2.py
+  443  python3 bruces2.py
+  444  python3 bruces2.py Bruce
+  445  vim bruces2.py
+  446  python3 bruces2.py 
+  447  ../..
+  448  cd ../..
+  449  vim num_converter
+  450  rmdir num_converter
+  451  vim numconverter.py
+  452  python3 numconveter.py
+  453  python3 numconverter.py
+  454  vim numconverter.py
+  455  python3 numconverter.py
+  456  vim numconverter.py
+  457  python3 numconverter.py
+  458  vim numconverter.py
+  459  python3 numconverter.py
+  460  cd ../../../..
+  461  ls
+  462  cd FOP
+  463  LS
+  464  ls
+  465  cd Prac01
+  466  vim numfor.py 
+  467  python3 numfor.py
+  468  vim numfor.py 
+  469  python3 numfor.py
+  470  vim numfor.py 
+  471  python3 numfor.py
+  472  vim numwhile.py
+  473  python3 numwhile.py
+  474  vim numwhile.py
+  475  python3 numwhile.py
+  476  vim numwhile.py
+  477  python3 numwhile.py
+  478  vim numwhile.py
+  479  python3 numwhile.py
+  480  cd..
+  481  cd ..
+  482  zip -r Prac01_90036891 Prac01
+  483  ls
+  484  mkdir FOP1005
+  485  ls
+  486  cd FOP0051
+  487  cd FOP005
+  488  cd FOP1005
+  489  mkdir practical[00..02
+  490  ls
+  491  rmdir practical[00..02
+  492  ls
+  493  rmdir practical[00..02]
+  494  mkdir practical[00..02]
+  495  ls
+  496  rmdir practical[00..02]
+  497  ls
+  498  mkdir practical00
+  499  mkdir practical01
+  500  mkdir practical02
+  501  mkdir assessments
+  502  cd assessments
+  503  mkdir Tests
+  504  cd Tests
+  505  mkdir pracTest01
+  506  cd ..
+  507  cd TESTS
+  508  cd Tests
+  509  mkdir Midterm
+  510  mkdir FinalTerm
+  511  rmdir FinalTerm
+  512  rmdir Midterm
+  513  ls
+  514  cd ..
+  515  mkdir Midterm
+  516  mkdir FinalTerm
+  517  cd Tests
+  518  cd pracTest
+  519  cd pracTest01
+  520  vim practest
+  521  rm practest
+  522  vim practest.py
+  523  python3 practest.py
+  524  vim practest.py
+  525  python3 practest.py
+  526  vim practest.py
+  527  python3 practest.py
+  528  vim practest.py
+  529  python3 practest.py
+  530  vim practest.py
+  531  python3 practest.py
+  532  vim practest.py
+  533  python3 practest.py
+  534  vim practest.py
+  535  python3 practest.py
+  536  vim practest.py
+  537  python3 practest.py
+  538  vim practest.py
+  539  python3 practest.py
+  540  vim practest.py
+  541  python3 practest.py
+  542  cd ../../..
+  543  ..
+  544  cd ..
+  545  ls
+  546  cd FOP
+  547  ls
+  548  cd 
+  549  cd ..
+  550  cd FOP1005
+  551  ls
+  552  cd practicle01
+  553  cd practical01
+  554  ls
+  555  cd..
+  556  cd ..
+  557  assessments
+  558  cd assessments
+  559  ls
+  560  cd Tests
+  561  ls
+  562  cd pracTest01
+  563  history>>Testhistory.txt
+  564  cd ../..
+  565  cd..
+  566  cd ..
+  567  zip -r pracTest01_90036891
+  568  zip -r pracTest01_90036891 *
+  569  ls
+  570  cd FOP1005
+  571  ls
+  572  cd practical02
+  573  ls
+  574  pwd
+  575  vim readme
+  576  vim strings1.py
+  577  python3 strings1.py
+  578  vim strings1.py
+  579  python3 strings1.py
+  580  vim strings1.py
+  581  python3 strings1.py
+  582  vim strings1.py
+  583  python3 strings1.py
+  584  vim strings1.py
+  585  python3 strings1.py
+  586  vim strings1.py
+  587  python3 strings1.py
+  588  vim strings1.py
+  589  python3 strings1.py
+  590  vim strings1.py
+  591  python3 strings1.py
+  592  vim strings1.py
+  593  vim bucket1.py
+  594  python3 bucket1.py
+  595  vim bucket1.py
+  596  vim bucket2.py
+  597  python3 bucket2.py
+  598  vim bucket2.py
+  599  python3 bucket2.py
+  600  vim bucket2.py
+  601  python3 bucket2.py
+  602  vim bucket2.py
+  603  python3 bucket2.py
+  604  vim bucket2.py
+  605  vim assorted.py
+  606  python3 assorted.py
+  607  vim assorted.py
+  608  python3 assorted.py
+  609  vim assorted.py
+  610  python3 assorted.py
+  611  y
+  612  vim assorted.py
+  613  vim cointoss.py
+  614  python3 cointoss.py
+  615  vim cointoss.py
+  616  python3 cointoss.py
+  617  vim cointoss.py
+  618  python3 cointoss.py
+  619  vim cointoss.py
+  620  python3 cointoss.py
+  621  zip -r 90036891 *
+  622  ls
+  623  cd FOP1005
+  624  ls
+  625  mkdir practical03
+  626  ls
+  627  cd practical01
+  628  ls
+  629  cd ..
+  630  cd practical02
+  631  ls
+  632  cd ..
+  633  cd practical03
+  634  vim growth.py
+  635  python3 growth.py
+  636  vim growth.py
+  637  python3 growth.py
+  638  vim growth.py
+  639  python3 numarray.py
+  640  python3 numberarray.py
+  641  cp growth.py growtharray.py
+  642  ls
+  643  cd growtharray.py
+  644  vim growtharray.py
+  645  vim numberarray
+  646  vim numberarray.py
+  647  python3 growtharray.py
+  648  cp growtharray growthsubplot
+  649  cp growtharray.py growthsubplot.py
+  650  vim growth subplot
+  651  vim growthsubplot.py
+  652  python3 greowthsubplot.py
+  653  python3 growthsubplot.py
+  654  vim growthsubplot.py
+  655  python3 growthsubplot.py
+  656  cp numberarray.py numbersbar.py
+  657  vim numbersbar.py
+  658  clear
+  659  cd ..
+  660  ls
+  661  practical03
+  662  cd practical03
+  663  ls
+  664  vim dosage.py
+  665  vim growth.py
+  666  cd ..
+  667  ls
+  668  practical01
+  669  cd practical01
+  670  ls
+  671  cd ..
+  672  cd practical02
+  673  ls
+  674  cd practical00
+  675  cd..
+  676  cd ..
+  677  cd practical00
+  678  ls
+  679  cd ..
+  680  cd practical03
+  681  vim numberarray.py
+  682  vim growtharray.py
+  683  python3 growtharray.py 
+  684  vim growtharray.py
+  685  python3 growtharray.py 
+  686  vim growtharray.py
+  687  clear
+  688  vim growtharray.py
+  689  python3 growtharray.py 
+  690  vim growtharray.py
+  691  vim growthsubplot.py
+  692  vim growtharray.py
+  693  vim growthsubplot.py
+  694  python3 numbersbar.py
+  695  vim dosage.py
+  696  python3 dosage.py
+  697  python3 dosage4hr.py
+  698  zip -r practical03_90036891 *
+  699  ls
+  700  cd practical03
+  701  vim numberarray.py
+  702  vim numbersarray.py
+  703  ls
+  704  cd FOP1005
+  705  ls
+  706  cd assessments
+  707  ls
+  708  cd Tests
+  709  ls
+  710  mkdir pracTest02
+  711  cd pracTest02
+  712  vim practest02
+  713  vim practest02.py
+  714  python3 practest02.py
+  715  vim practest02.py
+  716  python3 practest02.py
+  717  vim practest02.py
+  718  python3 practest02.py
+  719  vim practest02.py
+  720  python3 practest02.py
+  721  vim practest02.py
+  722  python3 practest02.py
+  723  vim practest02.py
+  724  python3 practest02.py
+  725  vim practest02.py
+  726  python3 practest02.py
+  727  vim practest02.py
+  728  python3 practest02.py
+  729  vim practest02.py
+  730  python3 practest02.py
+  731  vim practest02.py
+  732  python3 practest02.py
+  733  vim practest02.py
+  734  python3 practest02.py
+  735  vim practest02.py
+  736  python3 practest02.py
+  737  vim practest02.py
+  738  python3 practest02.py
+  739  vim practest02.py
+  740  python3 practest02.py
+  741  vim practest02.py
+  742  python3 practest02.py
+  743  vim practest02.py
+  744  python3 practest02.py
+  745  vim practest02.py
+  746  vim practest02.py
+  747  zip -r 90036891_test01 pracTest02 *zip -r
+  748  zip -r 90036891 * 
+  749  history
+  750  history >> Test02History.txt
+  751  cd FOP1005
+  752  ls
+  753  cd assessments
+  754  ls
+  755  cd Tests
+  756  ls
+  757  cd pracTest02
+  758  ls
+  759  history >> Test02History.txt

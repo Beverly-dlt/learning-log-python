@@ -1,0 +1,11 @@
+ valid_email@example.com
+ 9000123@curtincollege.edu.au
+ another_valid.email@example.co.uk
+ invalid_email@.com
+ invalid_email@domain
+ invalid_email@domain
+ no@tld
+ test.email@domain.com
+ mail@example.co.in
+ info@example
+ user@domain.co.uk
